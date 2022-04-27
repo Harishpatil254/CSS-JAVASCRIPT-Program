@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+  <SCRIPT LANGUAGE="JavaScript">
+  var s="JavaScript";  
+  var s1=" Is hard programming language";
+ document.write(s.charAt(2)+"<br>");  //charAt string
+ document.write(s.indexOf("S")+"<br>"); //index of string
+ var s2=s.concat(s1);       //concat string
+ document.write(s2+"<br>");
+  var l=s.toLowerCase();   //lowercase string
+  document.write(l+"<br>");
+  var u=s.toUpperCase();  //uppercase string
+  document.write(u+"<br>");
+  var a=s.slice(1,3);     //slice string
+  document.write(a);
+  </SCRIPT>
+ </BODY>
+</HTML>
